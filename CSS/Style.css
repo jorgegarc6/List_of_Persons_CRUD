@@ -1,0 +1,12 @@
+body{
+    background-color: #1B8B8A;
+}
+#dialog-Register{
+    display: none;
+}
+#colum_Edit, #colum_Remove, #editPerson, #removePerson{
+    width: 100px;
+}
+thead{
+    background-color: white;
+}
