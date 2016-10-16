@@ -72,7 +72,7 @@ function AddUser(action){
             success: function (answer) {
                 if(answer == 1){
                     $('#message').show();
-                    $('#message').html("<div class='alert alert-success' role='alert'>The user has been Add to DataTable</div>");
+                    $('#message').html("<div class='alert alert-success' role='alert'>The user has ben Add to DataTable</div>");
                     $('#datatable_Person').DataTable().ajax.reload();
                     $('#dialog-Register').dialog( "close" );
                     $('#message').fadeOut(5000);
