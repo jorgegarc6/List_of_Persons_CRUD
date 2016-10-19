@@ -23,11 +23,14 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <table class="table table-hover" id="datatable_Person">
+            <table class="table table-bordered table-hover" id="datatable_Person">
                 <thead>
                 <tr>
                     <th>
                         ID
+                    </th>
+                    <th>
+                        USER
                     </th>
                     <th>
                         NAME
@@ -56,12 +59,16 @@
 
 <div id="dialog-Register" title="Register Person">
     <form method="post">
-        <label>Name:</label><br/>
-        <input type="text" id="name"/><br/>
-        <label>Last Name:</label><br/>
-        <input type="text" id="lastname"/><br/>
-        <label>Years:</label><br/>
-        <input type="number" id="years"/><br/><br/>
+        <label>Name:</label>
+        <input type="text" id="name"/>
+        <label>Last Name:</label>
+        <input type="text" id="lastname"/>
+        <label id="lbl_user">User:</label>
+        <input type="text" id="user"/>
+        <label>Password:</label>
+        <input type="password" id="password"/>
+        <label>Years:</label>
+        <input type="number" id="years"/>
         <div id="message2"></div>
     </form>
 </div>

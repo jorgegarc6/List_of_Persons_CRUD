@@ -29,15 +29,17 @@ class Register{
 
     function Add_Person(){
 
-        if (isset($_POST['name']) && ($_POST['lastname']) && ($_POST['years'] != "")) {
+        if (isset($_POST['name']) && ($_POST['lastname']) && ($_POST['user']) && ($_POST['password']) && ($_POST['years'] != "")) {
 
             $name = $_POST['name'];
             $lastname = $_POST['lastname'];
+            $user = $_POST['user'];
+            $password = sha1($_POST['password']);
             $years = $_POST['years'];
 
             $connect = new Connection();
 
-            $insert = sprintf("INSERT INTO person (Name, LastName, Years) VALUES ('" . $name . "', '" . $lastname . "', " . $years . ")");
+            $insert = sprintf("INSERT INTO person (Name, LastName, User, Password, Years) VALUES ('$name', '$lastname', '$user', '$password', $years)");
             mysqli_select_db($connect->Connect(), "register");
             mysqli_query($connect->Connect(), $insert);
 
@@ -61,7 +63,7 @@ class Register{
     function deleted_Person($id){
         $connect = new Connection();
 
-        $query = sprintf("DELETE FROM person WHERE id=".$id);
+        $query = sprintf("DELETE FROM person WHERE id=$id");
         mysqli_select_db($connect->Connect(), "register");
         mysqli_query($connect->Connect(), $query);
         mysqli_close($connect->Connect());

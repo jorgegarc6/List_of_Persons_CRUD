@@ -10,7 +10,7 @@ class Connection
         $pass = '';
         $db = 'register';
 
-        $connect = mysqli_connect($server, $user, $pass, $db) or die('No se pudo conectar: ' . mysql_error());
+        $connect = new mysqli($server, $user, $pass, $db) or die('No se pudo conectar: ' . mysql_error());
 
         return $connect;
     }

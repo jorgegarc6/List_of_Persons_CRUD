@@ -28,6 +28,7 @@ function getDataTable(){
         "ajax": "Data_Ajax.php",
         "columns": [
             { data: "id"},
+            { data: "User"},
             { data: "Name"},
             { data: "LastName"},
             { data: "Years"},
@@ -42,7 +43,9 @@ function getDataTable(){
 }
 //Click on the Add Person button, call function AddUser
 function btn_Add_Person(){
-    $('#name').val(''); $('#lastname').val(''); $('#years').val('');
+    $('#name').val(''); $('#lastname').val(''); $('#user').val(''); $('#password').val(''); $('#years').val('');
+    $('#lbl_user').show();
+    $('#user').show();
     $('#dialog-Register').dialog({
         modal: true,
         buttons: {
@@ -60,14 +63,16 @@ function AddUser(action){
 
     var name = $('#name').val();
     var lastname = $('#lastname').val();
+    var user = $('#user').val();
+    var password = $('#password').val();
     var years = $('#years').val();
 
-    if(name != '' && lastname !='' && years !=''){
+    if(name != '' && lastname !='' && user !='' && password != '' && years !=''){
         $.ajax({
             type: 'POST',
             url: 'Register.php',
             data: (
-            'action='+action+' &name= '+ name+ ' &lastname='+lastname+' &years='+years
+            'action='+action+'&name= '+ name+ '&lastname='+lastname+'&user='+user+ '&password='+password+'&years='+years
             ),
             success: function (answer) {
                 if(answer == 1){
@@ -94,7 +99,7 @@ function AddUser(action){
 function btn_Update_Person(data){
     $('#dialog-Register').attr("title", "Edit Person");
     //Call function filling_fields_dialog and fill the fields of the dialog
-    filling_fields_dialog(data['Name'].trim(), data['LastName'].trim(), data['Years']);
+    filling_fields_dialog(data['Name'].trim(), data['LastName'].trim(), data['Password'].trim(), data['Years']);
     $('#dialog-Register').dialog({
         modal: true,
         buttons: {
@@ -108,11 +113,15 @@ function btn_Update_Person(data){
     });
 }
 //Fill the fields that contain the Dialog
-function filling_fields_dialog(Name, LastName, Years){
+function filling_fields_dialog(Name, LastName, Password,Years){
 
     $('#name').val(Name);
     $('#lastname').val(LastName);
+    $('#password').val(Password);
+    $('#lbl_user').hide();
+    $('#user').hide();
     $('#years').val(Years);
+
 
 }
 //Update the data of the Person
