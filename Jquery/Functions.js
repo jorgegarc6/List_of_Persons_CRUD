@@ -132,6 +132,7 @@ function updatePerson(id, action){
             data: ('action='+ action +'&id=' + id + '&name=' + name + '&lastname=' + lastname + '&years=' + years),
             success: function (answer) {
                 if(answer == 2) {
+
                     $('#message').show();
                     $('#datatable_Person').DataTable().ajax.reload();
                     $('#message').html("<div class='alert alert-success' role='alert'>You has modified the user with success...</div>");
