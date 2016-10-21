@@ -1,12 +1,45 @@
+html{
+    height: 100%;
+}
 body{
     background-color: #1B8B8A;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
+/*Hide the Dialog for Add Person or Edit Person*/
 #dialog-Register{
     display: none;
 }
+/*Size of the colums where is shown the Edit and Remove button*/
 #colum_Edit, #colum_Remove, #editPerson, #removePerson{
     width: 100px;
 }
+/*Background for the head of the DataTable*/
 thead{
     background-color: white;
+}
+/*Ordering the textboxes that contain the Dialog for Add a Person*/
+#name, #lastname, #user, #password, #years{
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+#content_Main{
+    height: 100%;
+    background-color: #6E6C6C;
+}
+#content_Background{
+    background-color: #D4D0D0;
+    height: 100%;
+    width: 33%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#content_Form{
+    margin-top: 50%;
 }
