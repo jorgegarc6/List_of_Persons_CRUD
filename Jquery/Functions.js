@@ -116,9 +116,9 @@ function filling_fields_dialog(Name, LastName, Years){
 
 }
 //Update the data of the Person
-function updatePerson(id, action){
+function updatePerson(id_Person, action){
 
-    var id = id;
+    var id = id_Person;
     var name = $('#name').val();
     var lastname = $('#lastname').val();
     var years = $('#years').val();
@@ -132,7 +132,6 @@ function updatePerson(id, action){
             data: ('action='+ action +'&id=' + id + '&name=' + name + '&lastname=' + lastname + '&years=' + years),
             success: function (answer) {
                 if(answer == 2) {
-
                     $('#message').show();
                     $('#datatable_Person').DataTable().ajax.reload();
                     $('#message').html("<div class='alert alert-success' role='alert'>You has modified the user with success...</div>");
