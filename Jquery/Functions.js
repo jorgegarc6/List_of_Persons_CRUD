@@ -137,6 +137,7 @@ function updatePerson(id, action){
                     $('#message').html("<div class='alert alert-success' role='alert'>You has modified the user with success...</div>");
                     $('#dialog-Register').dialog( "close" );
                     $('#message').fadeOut(5000);
+
                 }else{
                     $('#message').show();
                     $('#message').html("<div class='alert alert-danger' role='alert'>You have failed to user modification...</div>");
