@@ -1,3 +1,10 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['session_User'])){
+        header("Location: Login.php");
+    }
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,11 +25,13 @@
 </head>
 <body>
 
-<center><h1>List of Persons</h1></center> <br/>
+<center><h1 id="lbl_title">List of Persons</h1></center> <br/>
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
+
+            <a href="Logout.php" class="btn btn-warning" id="btn_Logout" role="button">Logout</a>
             <table class="table table-bordered table-hover" id="datatable_Person">
                 <thead>
                 <tr>

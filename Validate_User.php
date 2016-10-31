@@ -1,5 +1,5 @@
 <?php
-    require('Connection.php');
+    require_once('Connection.php');
     session_start();
 ?>
 
@@ -23,9 +23,9 @@ class Validate_User{
             $rows = $result->fetch_assoc();
             $_SESSION['session_User'] = $rows['User'];
             header("Location: Index.php");
+        }else{
+            echo $login_User;
         }
-
-        echo $rows;
 
     }
 

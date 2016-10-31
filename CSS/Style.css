@@ -27,6 +27,10 @@ thead{
 h1{
     text-align: center;
 }
+#btn_Logout{
+    float: right;
+    margin-top: -5%;
+}
 #content_Main{
     height: 100%;
     background-color: #6E6C6C;

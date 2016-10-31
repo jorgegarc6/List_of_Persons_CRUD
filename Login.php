@@ -1,3 +1,12 @@
+<?php
+
+session_start();
+
+if(isset($_SESSION['session_User'])){
+    header("Location: Index.php");
+}
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,7 +28,7 @@
 
             <h1>LOGIN</h1><br/>
 
-            <form method="post" action="Validate_User.php">
+            <form method="POST" id="frm_Login">
 
                 <div class="input-group">
                     <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-user" aria-hidden="true"></i></span>
@@ -32,11 +41,17 @@
                 </div>
                 <br/>
 
-                <button type="submit" name= "Submit" class="btn btn-primary">Ingresar</button>
+                <button id="btn_Submit" class="btn btn-primary">Ingresar</button>
+                <div id="showMessage"></div>
             </form>
         </div>
     </div>
 </div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.12.3.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script type="text/javascript" src="Jquery/Login_Functions.js"></script>
 
 </body>
 </html>
