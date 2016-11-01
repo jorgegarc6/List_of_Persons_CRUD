@@ -31,10 +31,12 @@ h1{
     float: right;
     margin-top: -5%;
 }
+/*Main background*/
 #content_Main{
     height: 100%;
     background-color: #6E6C6C;
 }
+/*Background of Login*/
 #content_Background{
     background-color: #D4D0D0;
     height: 100%;
@@ -43,7 +45,13 @@ h1{
     margin-right: auto;
     padding: 10px;
 }
-
+/*Contain the Form of Login*/
 #content_Form{
     margin-top: 50%;
+}
+#action{
+    display: none;
+}
+#btn_Register{
+    float: right;
 }

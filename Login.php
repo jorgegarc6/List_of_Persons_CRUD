@@ -16,6 +16,8 @@ if(isset($_SESSION['session_User'])){
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="CSS/Style.css"/>
 
@@ -42,10 +44,29 @@ if(isset($_SESSION['session_User'])){
                 <br/>
 
             </form>
-            <button id="btn_Submit" class="btn btn-primary">Ingresar</button>
+            <button id="btn_Submit" class="btn btn-primary">Login</button>
+            <button id="btn_Register" class="btn btn-info">Register</button>
+
             <div id="showMessage"></div>
         </div>
     </div>
+</div>
+
+<div id="dialog-Register" title="Register Person">
+    <form method="post" id="form_Register">
+        <label>Name:</label>
+        <input type="text" id="name" name="name"/>
+        <label>Last Name:</label>
+        <input type="text" id="lastname" name="lastname"/>
+        <label id="lbl_user">User:</label>
+        <input type="text" id="user" name="user"/>
+        <label>Password:</label>
+        <input type="password" id="password" name="password"/>
+        <label>Years:</label>
+        <input type="number" id="years" name="years"/>
+        <input type="number" id="action" name="action" value="1"/>
+        <div id="message2"></div>
+    </form>
 </div>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.12.3.js"></script>

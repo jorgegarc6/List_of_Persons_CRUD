@@ -24,7 +24,7 @@ class Validate_User{
             $_SESSION['session_User'] = $rows['User'];
             echo 1;
         }else{
-            echo 2;
+            echo 2  ;
         }
 
     }
