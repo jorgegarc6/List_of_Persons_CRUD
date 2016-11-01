@@ -22,9 +22,9 @@ class Validate_User{
         if($rows > 0){
             $rows = $result->fetch_assoc();
             $_SESSION['session_User'] = $rows['User'];
-            header("Location: Index.php");
+            echo 1;
         }else{
-            echo $login_User;
+            echo 2;
         }
 
     }

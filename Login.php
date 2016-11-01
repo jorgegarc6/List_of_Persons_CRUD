@@ -41,9 +41,9 @@ if(isset($_SESSION['session_User'])){
                 </div>
                 <br/>
 
-                <button id="btn_Submit" class="btn btn-primary">Ingresar</button>
-                <div id="showMessage"></div>
             </form>
+            <button id="btn_Submit" class="btn btn-primary">Ingresar</button>
+            <div id="showMessage"></div>
         </div>
     </div>
 </div>

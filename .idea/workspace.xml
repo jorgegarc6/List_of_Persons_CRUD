@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="084e8328-9061-4c50-9c6f-8eac3a314af5" name="Default" comment="Adding new fields to the Database: User and Password&#10;Adding new fields for Edit Person&#10;Modification of the CSS (Order of the Textboxes)&#10;Starting with the Login&#10;Validation of login and encript the password with sha1">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/Login_Functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Logout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.php" afterPath="$PROJECT_DIR$/Index.php" />
+    <list default="true" id="084e8328-9061-4c50-9c6f-8eac3a314af5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Login.php" afterPath="$PROJECT_DIR$/Login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSS/Style.css" afterPath="$PROJECT_DIR$/CSS/Style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jquery/Login_Functions.js" afterPath="$PROJECT_DIR$/Jquery/Login_Functions.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Validate_User.php" afterPath="$PROJECT_DIR$/Validate_User.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -45,10 +43,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Index.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.038462" vertical-offset="1149" max-vertical-offset="1717">
+                <state vertical-scroll-proportion="1.0299295" vertical-offset="877" max-vertical-offset="1717">
                   <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
                   <folding />
                 </state>
@@ -58,22 +56,32 @@
           <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Login.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.8076925" vertical-offset="486" max-vertical-offset="1054">
-                  <caret line="39" column="61" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="61" />
+                <state vertical-scroll-proportion="-12.038462" vertical-offset="452" max-vertical-offset="1054">
+                  <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
                   <folding>
-                    <marker date="1477884215980" expanded="true" signature="142:161" placeholder="..." />
+                    <marker date="1477888711462" expanded="true" signature="142:161" placeholder="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Validate_User.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="595">
+                  <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Validate_User.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Validate_User.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7183099" vertical-offset="0" max-vertical-offset="714">
-                  <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+                <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="714">
+                  <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
                   <folding>
-                    <marker date="1477885666280" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
+                    <marker date="1477887398483" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
                   </folding>
                 </state>
               </provider>
@@ -82,7 +90,7 @@
           <file leaf-file-name="Functions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Jquery/Functions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="1088" max-vertical-offset="3179">
+                <state vertical-scroll-proportion="0.0" vertical-offset="2585" max-vertical-offset="3179">
                   <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
                   <folding />
                 </state>
@@ -92,8 +100,8 @@
           <file leaf-file-name="Login_Functions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Jquery/Login_Functions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-                  <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+                  <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -129,18 +137,12 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Register.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Register.php">
+          <file leaf-file-name="Login_Functions.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Jquery/Login_Functions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.91549295" vertical-offset="826" max-vertical-offset="1394">
-                  <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-                  <folding>
-                    <marker date="1477074752193" expanded="true" signature="885:1100" placeholder="INSERT INTO ..." />
-                    <marker date="1477074752193" expanded="true" signature="917:984" placeholder="INSERT INTO ..." />
-                    <marker date="1477074752193" expanded="true" signature="917:1035" placeholder="INSERT INTO ..." />
-                    <marker date="1477074752193" expanded="true" signature="1356:1444" placeholder="UPDATE perso..." />
-                    <marker date="1477074752193" expanded="true" signature="1726:1754" placeholder="DELETE FROM ..." />
-                  </folding>
+                <state vertical-scroll-proportion="0.65824914" vertical-offset="0" max-vertical-offset="594">
+                  <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -185,9 +187,10 @@
         <option value="$PROJECT_DIR$/Logout.php" />
         <option value="$PROJECT_DIR$/Jquery/Functions.js" />
         <option value="$PROJECT_DIR$/Index.php" />
+        <option value="$PROJECT_DIR$/Validate_User.php" />
+        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/Login.php" />
         <option value="$PROJECT_DIR$/Jquery/Login_Functions.js" />
-        <option value="$PROJECT_DIR$/Validate_User.php" />
       </list>
     </option>
   </component>
@@ -405,13 +408,20 @@
       <option name="project" value="LOCAL" />
       <updated>1477074240324</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Try show the message in the login">
+      <created>1477885705238</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1477885705238</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -427,7 +437,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -477,7 +486,8 @@
     <MESSAGE value="Adding new fields to the Database: User and Password&#10;Adding new fields for Edit Person&#10;Modification of the CSS (Order of the Textboxes)&#10;Starting with the Login" />
     <MESSAGE value="Adding new fields to the Database: User and Password&#10;Adding new fields for Edit Person&#10;Modification of the CSS (Order of the Textboxes)&#10;Starting with the Login&#10;Validation of login and encript the password with sha1()" />
     <MESSAGE value="Adding new fields to the Database: User and Password&#10;Adding new fields for Edit Person&#10;Modification of the CSS (Order of the Textboxes)&#10;Starting with the Login&#10;Validation of login and encript the password with sha1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new fields to the Database: User and Password&#10;Adding new fields for Edit Person&#10;Modification of the CSS (Order of the Textboxes)&#10;Starting with the Login&#10;Validation of login and encript the password with sha1" />
+    <MESSAGE value="Try show the message in the login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try show the message in the login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -507,7 +517,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1037">
           <caret line="43" column="36" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="36" />
           <folding>
-            <marker date="1477884215980" expanded="true" signature="142:161" placeholder="..." />
+            <marker date="1477888711462" expanded="true" signature="142:161" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -517,7 +527,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="31" max-vertical-offset="731">
           <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
-            <marker date="1477885666280" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
+            <marker date="1477887398483" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
           </folding>
         </state>
       </provider>
@@ -580,6 +590,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -588,7 +599,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1003">
           <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
           <folding>
-            <marker date="1477884215980" expanded="true" signature="142:161" placeholder="..." />
+            <marker date="1477888711462" expanded="true" signature="142:161" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -598,7 +609,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1477885666280" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
+            <marker date="1477887398483" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
           </folding>
         </state>
       </provider>
@@ -673,6 +684,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08777969" vertical-offset="0" max-vertical-offset="581">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -680,32 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="918">
           <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.038462" vertical-offset="1149" max-vertical-offset="1717">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.8076925" vertical-offset="486" max-vertical-offset="1054">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="61" />
-          <folding>
-            <marker date="1477884215980" expanded="true" signature="142:161" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/Functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="3179">
-          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -724,21 +710,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/Login_Functions.js">
+    <entry file="file://$PROJECT_DIR$/Jquery/Functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="3179">
+          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Validate_User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7183099" vertical-offset="0" max-vertical-offset="714">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
-            <marker date="1477885666280" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
+            <marker date="1477887398483" expanded="true" signature="420:493" placeholder="SELECT * FRO..person..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="595">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.038462" vertical-offset="452" max-vertical-offset="1054">
+          <caret line="45" column="40" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding>
+            <marker date="1477888711462" expanded="true" signature="142:161" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0299295" vertical-offset="877" max-vertical-offset="1717">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/Login_Functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65824914" vertical-offset="0" max-vertical-offset="594">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
