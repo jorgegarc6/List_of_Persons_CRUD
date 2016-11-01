@@ -48,26 +48,29 @@ if(isset($_SESSION['session_User'])){
             <button id="btn_Register" class="btn btn-info">Register</button>
 
             <div id="showMessage"></div>
+
+            <div id="dialog-Register" title="Register Person">
+                <form method="post" id="form_Register">
+                    <label>Name:</label>
+                    <input type="text" id="name" name="name"/>
+                    <label>Last Name:</label>
+                    <input type="text" id="lastname" name="lastname"/>
+                    <label id="lbl_user">User:</label>
+                    <input type="text" id="user" name="user"/>
+                    <label>Password:</label>
+                    <input type="password" id="password" name="password"/>
+                    <label>Years:</label>
+                    <input type="number" id="years" name="years"/>
+                    <input type="number" id="action" name="action" value="1"/>
+                    <div id="message2"></div>
+                </form>
+            </div>
+
         </div>
     </div>
 </div>
 
-<div id="dialog-Register" title="Register Person">
-    <form method="post" id="form_Register">
-        <label>Name:</label>
-        <input type="text" id="name" name="name"/>
-        <label>Last Name:</label>
-        <input type="text" id="lastname" name="lastname"/>
-        <label id="lbl_user">User:</label>
-        <input type="text" id="user" name="user"/>
-        <label>Password:</label>
-        <input type="password" id="password" name="password"/>
-        <label>Years:</label>
-        <input type="number" id="years" name="years"/>
-        <input type="number" id="action" name="action" value="1"/>
-        <div id="message2"></div>
-    </form>
-</div>
+
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.12.3.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
